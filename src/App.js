@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import Topbar from "./components/topbar/Topbar"
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -35,7 +36,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        hello
+        <Topbar/>
+
       </div>
     )
   }
